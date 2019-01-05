@@ -3,9 +3,7 @@
   "version": "0.0.1",
   "description": "Personal web site",
   "main": "/",
-  "scripts": {
-    "gzip": "gzip -k9nr dist"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/rubenslopes/portfolio.git"
