@@ -15,11 +15,7 @@ async function cleanStyles() {
 function styles(cb) {
   src(stylesPath)
     .pipe(sass().on('error', sass.logError))
-    .pipe(
-      autoprefixer({
-        browsers: ["last 2 versions"]
-      })
-    )
+    .pipe(autoprefixer())
     .pipe(dest(stylesPathDist))
     .pipe(browserSync.stream());
   cb();

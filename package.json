@@ -8,6 +8,11 @@
     "type": "git",
     "url": "https://github.com/rubenslopes/portfolio.git"
   },
+  "browserslist": {
+    "browsers": [
+      "last 2 versions"
+    ]
+  },
   "keywords": [
     "dev-ops",
     "web-developer",
@@ -22,10 +27,10 @@
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "del": "^3.0.0",
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-file-include": "^2.0.1",
-    "gulp-sass": "^4.0.2"
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-file-include": "^2.2.2",
+    "gulp-sass": "^4.1.0"
   }
 }
