@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Personal web site",
   "main": "/",
-  "scripts": {},
+  "scripts": {
+    "build": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/rubenslopes/portfolio.git"
@@ -26,11 +28,11 @@
   "author": "Rubens Armôa Lopes",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.12",
-    "del": "^5.1.0",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
-    "gulp-file-include": "^2.2.2",
+    "gulp-file-include": "^2.3.0",
     "gulp-sass": "^4.1.0"
   }
 }
