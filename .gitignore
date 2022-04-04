@@ -4,3 +4,4 @@ dist
 configs
 .firebaserc
 .firebase/
+.pnpm-debug.log
