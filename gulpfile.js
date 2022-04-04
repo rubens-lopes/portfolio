@@ -1,5 +1,5 @@
 const { src, dest, watch, series, parallel } = require('gulp');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const autoprefixer = require('gulp-autoprefixer');
 const del = require('del');
 const browserSync = require('browser-sync').create();
@@ -59,8 +59,9 @@ function watches(cb) {
 
 
   browserSync.init({
+    open: false,
     server: {
-      baseDir: './dist'
+      baseDir: './dist',
     }
   });
 

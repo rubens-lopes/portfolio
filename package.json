@@ -28,11 +28,17 @@
   "author": "Rubens Armôa Lopes",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.14",
+    "browser-sync": "^2.27.9",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-file-include": "^2.3.0",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.11"
+  },
+  "pnpm": {
+    "overrides": {
+      "glob-parent@<5.1.2": ">=5.1.2"
+    }
   }
 }
